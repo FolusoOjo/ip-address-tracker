@@ -70,7 +70,9 @@ main {
 }
 .IPdetails {
   display: flex;
-  height: 200px;
+  border-radius: 5px;
+  width: 70%;
+  /* height: 160px; */
   padding: 40px 10px;
   position: absolute;
   background: white;
@@ -82,7 +84,7 @@ main {
 }
 
 hr {
-  height: 70px;
+  height: 80px;
 }
 /* .IPdetails {
   border: 2px solid red;
