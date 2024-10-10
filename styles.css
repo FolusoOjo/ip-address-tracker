@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: orange;
+}
+.main {
+  border: 2px solid purple;
+  /* margin: 20px; */
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.bgimg {
+  background-image: url(./images/pattern-bg-desktop.png);
+  /* padding: 25px 0 80px 0; */
+  height: 300px;
+  padding: 35px 0;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+.input {
+  /* width: 400px; */
+  text-align: center;
+  padding-top: 25px;
+  /* background: white; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.input div {
+  display: flex;
+  padding: 20px;
+}
+.input p {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 0 12px 12px 0;
+}
+
+.input input {
+  border-color: transparent;
+  background: white;
+  border-radius: 12px 0 0 12px;
+  /* padding-right: 20px; */
+  /* padding: 20px; */
+  color: hsl(0, 0%, 59%);
+}
+main {
+  /* border: 5px solid purple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 20px; */
+}
+.IPdetails {
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  height: 200px;
+  padding: 40px 10px;
+  position: absolute;
+  background: white;
+}
+.IPdetails div {
+  /* border: 2px solid red; */
+  margin: 0 60px 0 25px;
+  padding: 10px 20px 5px 20px;
+}
+
+hr {
+  height: 70px;
+}
+/* .IPdetails {
+  border: 2px solid red;
+  position: absolute;
+  top: 120px;
+  left: 450px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 20px 0;
+} */
+
+/* .IPdetails div {
+  width: 100px;
+  background-color: white;
+} */
+.IPdetails p {
+  font-size: 14px;
+  color: hsl(0, 0%, 59%);
+  /* padding: 30px; */
+}
