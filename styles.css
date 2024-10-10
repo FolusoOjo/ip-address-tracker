@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -25,8 +26,8 @@ h2 {
   color: white;
 }
 
-#searchInput{
-  box-sizing:  border-box;
+#searchInput {
+  box-sizing: border-box;
   width: 400px;
   text-align: center;
 }
@@ -68,7 +69,6 @@ main {
   /* margin-top: 20px; */
 }
 .IPdetails {
-  /* border: 2px solid rebeccapurple; */
   display: flex;
   height: 200px;
   padding: 40px 10px;
@@ -77,8 +77,8 @@ main {
 }
 .IPdetails div {
   /* border: 2px solid red; */
-  margin: 0 60px 0 25px;
-  padding: 10px 20px 5px 20px;
+  margin: 0 30px 0 10px;
+  padding: 10px 0 5px 15px;
 }
 
 hr {
@@ -100,8 +100,15 @@ hr {
   width: 100px;
   background-color: white;
 } */
-.IPdetails p {
-  font-size: 14px;
+.mainpara {
+  font-size: 10px;
+  font-weight: 600;
   color: hsl(0, 0%, 59%);
   /* padding: 30px; */
+}
+.secondpara {
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 500;
 }
