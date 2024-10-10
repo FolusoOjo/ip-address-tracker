@@ -5,6 +5,11 @@
   font-family: "Rubik", sans-serif;
 }
 
+#map { 
+  height: 200px; 
+  margin-top: 80px;
+}
+
 body {
   background-color: orange;
 }

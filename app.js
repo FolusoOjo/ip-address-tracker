@@ -6,6 +6,13 @@ const loca = document.getElementById("location");
 const timeZone = document.getElementById("timeZone");
 const ISP = document.getElementById("ISP");
 
+var map = L.map('map').setView([51.505, -0.09], 13);
+
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+
 btn.addEventListener("click", () => {
   searchInput.textContent = "";
   let search = searchInput.value;
