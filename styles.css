@@ -70,8 +70,9 @@ main {
 }
 .IPdetails {
   display: flex;
+  justify-content: center;
   border-radius: 5px;
-  width: 70%;
+  /* width: 70%; */
   /* height: 160px; */
   padding: 40px 10px;
   position: absolute;
@@ -113,4 +114,46 @@ hr {
   margin-top: 10px;
   font-size: 26px;
   font-weight: 500;
+}
+
+/* Responsiveness  for smaller screens*/
+
+@media screen and (max-width: 550px) {
+  body {
+    background: red;
+  }
+
+  .bgimg {
+    height: 250px;
+    padding: 22px 0;
+  }
+  .input {
+    padding: 5px 0;
+  }
+  #searchInput {
+    width: 220px;
+    padding: 15px 0;
+  }
+  #btn {
+    padding-top: 5px;
+  }
+
+  .IPdetails {
+    display: block;
+    border-radius: 5px;
+    width: 60%;
+    /* height: 160px; */
+    padding: 20px 10px;
+    position: absolute;
+    top: 140px;
+    background: white;
+    /* text-align: center; */
+  }
+  hr {
+    display: none;
+  }
+  .secondpara {
+    font-size: 16px;
+    font-weight: 600;
+  }
 }
