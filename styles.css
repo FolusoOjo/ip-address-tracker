@@ -24,6 +24,12 @@ h2 {
   text-align: center;
   color: white;
 }
+
+#searchInput{
+  box-sizing:  border-box;
+  width: 400px;
+  text-align: center;
+}
 .input {
   /* width: 400px; */
   text-align: center;
@@ -31,6 +37,7 @@ h2 {
   /* background: white; */
   display: flex;
   justify-content: center;
+
   /* align-items: center; */
 }
 .input div {

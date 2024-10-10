@@ -19,11 +19,7 @@
     <script src="./app.js" defer></script>
     <title>Frontend Mentor | IP Address Tracker</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
+    
   </head>
   <body>
     <div class="main">
@@ -36,7 +32,7 @@
               type="search"
               placeholder=" Search for any IP address or domain"
             />
-            <p><img src="./images/icon-arrow.svg" alt="" /></p>
+            <p><img id="btn" src="./images/icon-arrow.svg" alt="" /></p>
           </div>
         </div>
       </div>
@@ -44,25 +40,25 @@
   <div class="IPdetails" id="ipdetails">
     <div class="address">
       <p>IP ADDRESS</p>
-      <p></p>
+      <p id="Address"></p>
     </div>
     <hr />
 
     <div class="location">
       <p>LOCATION</p>
-      <p></p>
+      <p id="location"></p>
     </div>
     <hr />
 
     <div class="timezone">
       <p>TIMEZONE</p>
-      <p></p>
+      <p id="timeZone"></p>
     </div>
     <hr />
 
     <div class="isp">
       <p>ISP</p>
-      <p></p>
+      <p id="ISP"></p>
     </div>
   </div>
 </div>
