@@ -6,8 +6,8 @@
 }
 
 #map { 
-  height: 200px; 
-  margin-top: 80px;
+  height: 300px; 
+  z-index: -1;
 }
 
 body {
