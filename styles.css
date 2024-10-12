@@ -124,10 +124,6 @@ hr {
 /* Responsiveness  for smaller screens*/
 
 @media screen and (max-width: 550px) {
-  body {
-    background: red;
-  }
-
   .bgimg {
     height: 250px;
     padding: 22px 0;
