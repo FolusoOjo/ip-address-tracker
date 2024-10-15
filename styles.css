@@ -10,9 +10,6 @@
   z-index: -1;
 }
 
-body {
-  background-color: orange;
-}
 .main {
   border: 2px solid purple;
   /* margin: 20px; */
